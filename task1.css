@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.verify{
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+}
+.verify h1{
+    color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    padding: 5px;
+}
+.verify i{
+    color: rgba(16, 148, 209, 0.767);
+    text-align: center;
+}
+.topcont{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 360px;
+    background-color: aliceblue;
+    border: 8px solid yellow;
+}
+
+
+.top{
+    height: 90px;
+    margin: 8px;
+    background-color: black;
+    border-radius: 2px;
+    border: 1px solid yellowgreen;
+}
+
+.top h1{
+    padding-top: 15px;
+    color: yellowgreen;
+    text-align: center;
+}
+
+.container{
+    margin: 10px 10px 0px 10px;
+    height: 190px;
+    background-color: rgba(97, 89, 89, 0.473);
+    border: 5px solid black;
+   
+}
+.container p{
+    text-align:left ;
+    padding: 40px;
+    color: white;
+}
+.topcont2{
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    width: 60%;
+    height: 360px;
+    background-color: aliceblue;
+    border: 8px solid yellow;
+}
+
+@media (max-width:400px){
+    .topcont{
+        width: 90%;
+        position: absolute;
+        top: 10%;
+        left: 10px;
+    }
+    .topcont2{
+        width: 90%;
+        position: absolute;
+        top: 60%;
+        left: 10px;
+    }
+    .container{
+        overflow: scroll;
+        height: 60%;
+    }
+
+}
